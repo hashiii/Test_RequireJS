@@ -8,5 +8,12 @@
     </head>
     <body>
         <h1>My Sampsssle Project</h1>
+        <script>
+        require(['helper/util'], function(utll) {
+    // Configuration loaded now, safe to do other require calls
+    // that depend on that config.
+      console.log(utll);
+});
+        </script>
     </body>
 </html>

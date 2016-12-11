@@ -1,9 +1,7 @@
-//
-
 define([],function(){
   var testobj={
     test:function(){
-          console.log ("aaa");
+          console.log ("aaa222222");
       }
     };
   return{
